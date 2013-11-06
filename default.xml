@@ -435,7 +435,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/lge" name="PSX-PureSpeed/android_vendor_lge" remote="github" revision="kk-4.4" />
   <project path="vendor/psx" name="PSX-PureSpeed/android_vendor_psx" remote="github" revision="kk-4.4" />
-  <project path="vendor/qcom" name="PSX-PureSpeed/android_vendor_qcom" remote="github" revision="master" />
-  <project path="vendor/broadcom" name="PSX-PureSpeed/android_vendor_broadcom" remote="github" revision="master" />
+  <project path="vendor/qcom" name="PSX-PureSpeed/android_vendor_qcom" remote="github" revision="kk-4.4" />
+  <project path="vendor/broadcom" name="PSX-PureSpeed/android_vendor_broadcom" remote="github" revision="kk-4.4" />
 
 </manifest>
