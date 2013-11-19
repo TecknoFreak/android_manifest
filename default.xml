@@ -29,7 +29,7 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="PSX-PureSpeed/device_asus_flo" groups="device,flo" remote="github" revision="kk-4.4" />
+  <project path="device/asus/flo" name="PSX-PureSpeed/android_device_asus_flo" groups="device,flo" remote="github" revision="kk-4.4" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
@@ -46,8 +46,8 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead" name="PSX-PureSpeed/device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="kk-4.4" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <project path="kernel/hammerhead" name="PSX-PureSpeed/kernel_hammerhead" remote="github" revision="kk-4.4" />
-  <project path="device/lge/mako" name="PSX-PureSpeed/device_lge_mako" groups="device,mako" remote="github" revision="kk-4.4" />
+  <project path="kernel/hammerhead" name="PSX-PureSpeed/android_kernel_hammerhead" remote="github" revision="kk-4.4" />
+  <project path="device/lge/mako" name="PSX-PureSpeed/android_device_lge_mako" groups="device,mako" remote="github" revision="kk-4.4" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
@@ -67,7 +67,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="PSX-PureSpeed/android_external_busybox" remote="github" revision="kk-4.4" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-11.0" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -299,7 +299,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="PSX-PureSpeed/android_libcore" remote="github" revision="kk-4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
-  <project path="ndk" name="PSX-PureSpeed/platform_ndk" remote="github" revision="kk-4.4" />
+  <project path="ndk" name="PSX-PureSpeed/android_ndk" remote="github" revision="kk-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -323,7 +323,7 @@
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="PSX-PureSpeed/packages_apps_Mms" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Mms" name="PSX-PureSpeed/android_packages_apps_Mms" remote="github" revision="kk-4.4" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
