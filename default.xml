@@ -439,6 +439,6 @@
   <project path="vendor/psx" name="PSX-PureSpeed/android_vendor_psx" remote="github" revision="kk-4.4" />
   <project path="vendor/qcom" name="PSX-PureSpeed/android_vendor_qcom" remote="github" revision="kk-4.4" />
   <project path="vendor/broadcom" name="PSX-PureSpeed/android_vendor_broadcom" remote="github" revision="kk-4.4" />
-  <project path="kernel/hammerhead" name="PSX-PureSpeed/kernel_hammerhead" remote="github" revision="master" />
+  <project path="kernel/hammerhead" name="PSX-PureSpeed/kernel_hammerhead" remote="github" revision="kk-4.4" />
   
 </manifest>
