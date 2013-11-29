@@ -14,9 +14,6 @@
 
   <project path="build" name="PSX-PureSpeed/android_build" groups="pdk" remote="github" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
-    <copyfile src="build_mako.sh" dest="build_mako.sh" />
-    <copyfile src="build_hammerhead.sh" dest="build_hammerhead.sh" /> 
-    <copyfile src="build_flo.sh" dest="build_flo.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="PSX-PureSpeed/android_art" remote="github" revision="kk-4.4" />
