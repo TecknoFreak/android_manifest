@@ -8,28 +8,28 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <default revision="refs/tags/android-4.4_r1.2"
+  <default revision="refs/tags/android-4.4.1_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="PSX-PureSpeed/android_build" groups="pdk" remote="github" revision="kk-4.4" >
+  <project path="build" name="PSX-PureSpeed/android_build" groups="pdk" remote="github" revision="kk-4.4.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="PSX-PureSpeed/android_art" remote="github" revision="kk-4.4" />
-  <project path="bionic" name="PSX-PureSpeed/android_bionic" remote="github" revision="kk-4.4" />
+  <project path="art" name="PSX-PureSpeed/android_art" remote="github" revision="kk-4.4.1" />
+  <project path="bionic" name="PSX-PureSpeed/android_bionic" remote="github" revision="kk-4.4.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="PSX-PureSpeed/android_dalvik" remote="github" revision="kk-4.4" />
+  <project path="dalvik" name="PSX-PureSpeed/android_dalvik" remote="github" revision="kk-4.4.1" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="PSX-PureSpeed/android_device_asus_flo" groups="device,flo" remote="github" revision="kk-4.4" />
+  <project path="device/asus/flo" name="PSX-PureSpeed/android_device_asus_flo" groups="device,flo" remote="github" revision="kk-4.4.1" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
@@ -44,12 +44,12 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="PSX-PureSpeed/android_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="kk-4.4" />
+  <project path="device/lge/hammerhead" name="PSX-PureSpeed/android_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="kk-4.4.1" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <project path="kernel/hammerhead" name="PSX-PureSpeed/android_kernel_lge_hammerhead" remote="github" revision="kk-4.4" />
-  <project path="device/lge/mako" name="PSX-PureSpeed/android_device_lge_mako" groups="device,mako" remote="github" revision="kk-4.4" />
-  <project path="device/lge/mako-kernel" name="PSX-PureSpeed/mako_kernel" groups="device,mako" remote="github" revision="kk-4.4" />
-  <project path="kernel/lge/mako" name="PSX-PureSpeed/android_kernel_lge_mako" remote="github" revision="kk-4.4" />
+  <project path="kernel/hammerhead" name="PSX-PureSpeed/android_kernel_lge_hammerhead" remote="github" revision="kk-4.4.1" />
+  <project path="device/lge/mako" name="PSX-PureSpeed/android_device_lge_mako" groups="device,mako" remote="github" revision="kk-4.4.1" />
+  <project path="device/lge/mako-kernel" name="PSX-PureSpeed/mako_kernel" groups="device,mako" remote="github" revision="kk-4.4.1" />
+  <project path="kernel/lge/mako" name="PSX-PureSpeed/android_kernel_lge_mako" remote="github" revision="kk-4.4.1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -216,7 +216,7 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="PSX-PureSpeed/android_external_skia" remote="github" revision="kk-4.4" />
+  <project path="external/skia" name="PSX-PureSpeed/android_external_skia" remote="github" revision="kk-4.4.1" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -247,7 +247,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="PSX-PureSpeed/android_frameworks_base" remote="github" revision="kk-4.4" />
+  <project path="frameworks/base" name="PSX-PureSpeed/android_frameworks_base" remote="github" revision="kk-4.4.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -298,9 +298,9 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="libcore" name="PSX-PureSpeed/android_libcore" remote="github" revision="kk-4.4" />
+  <project path="libcore" name="PSX-PureSpeed/android_libcore" remote="github" revision="kk-4.4.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
-  <project path="ndk" name="PSX-PureSpeed/android_ndk" remote="github" revision="kk-4.4" />
+  <project path="ndk" name="PSX-PureSpeed/android_ndk" remote="github" revision="kk-4.4.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -313,18 +313,18 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="PSX-PureSpeed/android_packages_apps_Dialer" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Dialer" name="PSX-PureSpeed/android_packages_apps_Dialer" remote="github" revision="kk-4.4.1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="PSX-PureSpeed/android_packages_apps_InCallUI" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/InCallUI" name="PSX-PureSpeed/android_packages_apps_InCallUI" remote="github" revision="kk-4.4.1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="PSX-PureSpeed/android_packages_apps_Mms" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Mms" name="PSX-PureSpeed/android_packages_apps_Mms" remote="github" revision="kk-4.4.1" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -335,7 +335,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="PSX-PureSpeed/android_packages_apps_Settings" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/Settings" name="PSX-PureSpeed/android_packages_apps_Settings" remote="github" revision="kk-4.4.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -361,7 +361,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="PSX-PureSpeed/android_packages_services_Telephony" remote="github" revision="kk-4.4" />
+  <project path="packages/services/Telephony" name="PSX-PureSpeed/android_packages_services_Telephony" remote="github" revision="kk-4.4.1" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -420,7 +420,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="PSX-PureSpeed/android_system_core" groups="pdk" remote="github" revision="kk-4.4" />
+  <project path="system/core" name="PSX-PureSpeed/android_system_core" groups="pdk" remote="github" revision="kk-4.4.1" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -437,17 +437,17 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/audience" name="PSX-PureSpeed/android_vendor_audience" remote="github" revision="kk-4.4" />
-  <project path="vendor/asus" name="PSX-PureSpeed/android_vendor_asus" remote="github" revision="kk-4.4" />
-  <project path="vendor/broadcom" name="PSX-PureSpeed/android_vendor_broadcom" remote="github" revision="kk-4.4" />
-  <project path="vendor/elan" name="PSX-PureSpeed/android_vendor_elan" remote="github" revision="kk-4.4" />
-  <project path="vendor/invensense" name="PSX-PureSpeed/android_vendor_invensense" remote="github" revision="kk-4.4" />
-  <project path="vendor/lge" name="PSX-PureSpeed/android_vendor_lge" remote="github" revision="kk-4.4" />
-  <project path="vendor/nvidia" name="PSX-PureSpeed/android_vendror_nvidia" remote="github" revision="kk-4.4" />
-  <project path="vendor/nxp" name="PSX-PureSpeed/android_vendor_nxp" remote="github" revision="kk-4.4" />
-  <project path="vendor/psx" name="PSX-PureSpeed/android_vendor_psx" remote="github" revision="kk-4.4" />
-  <project path="vendor/qcom" name="PSX-PureSpeed/android_vendor_qcom" remote="github" revision="kk-4.4" />
-  <project path="vendor/samsung" name="PSX-PureSpeed/android_vendor_samsung" remote="github" revision="kk-4.4" />
-  <project path="vendor/widevine" name="PSX-PureSpeed/android_vendor_widevine" remote="github" revision="kk-4.4" />  
+  <project path="vendor/audience" name="PSX-PureSpeed/android_vendor_audience" remote="github" revision="kk-4.4.1" />
+  <project path="vendor/asus" name="PSX-PureSpeed/android_vendor_asus" remote="github" revision="kk-4.4.1" />
+  <project path="vendor/broadcom" name="PSX-PureSpeed/android_vendor_broadcom" remote="github" revision="kk-4.4.1" />
+  <project path="vendor/elan" name="PSX-PureSpeed/android_vendor_elan" remote="github" revision="kk-4.4.1" />
+  <project path="vendor/invensense" name="PSX-PureSpeed/android_vendor_invensense" remote="github" revision="kk-4.4.1" />
+  <project path="vendor/lge" name="PSX-PureSpeed/android_vendor_lge" remote="github" revision="kk-4.4.1" />
+  <project path="vendor/nvidia" name="PSX-PureSpeed/android_vendror_nvidia" remote="github" revision="kk-4.4.1" />
+  <project path="vendor/nxp" name="PSX-PureSpeed/android_vendor_nxp" remote="github" revision="kk-4.4.1" />
+  <project path="vendor/psx" name="PSX-PureSpeed/android_vendor_psx" remote="github" revision="kk-4.4.1" />
+  <project path="vendor/qcom" name="PSX-PureSpeed/android_vendor_qcom" remote="github" revision="kk-4.4.1" />
+  <project path="vendor/samsung" name="PSX-PureSpeed/android_vendor_samsung" remote="github" revision="kk-4.4.1" />
+  <project path="vendor/widevine" name="PSX-PureSpeed/android_vendor_widevine" remote="github" revision="kk-4.4.1" />  
   
 </manifest>
