@@ -49,7 +49,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead" name="PSX-PureSpeed/android_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="psx_v3" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <project path="kernel/hammerhead" name="PSX-PureSpeed/android_kernel_lge_hammerhead" remote="github" revision="psx_v3" />
+  <project path="kernel/lge/hammerhead" name="PSX-PureSpeed/android_kernel_lge_hammerhead" remote="github" revision="psx_v3" />
   <project path="device/lge/mako" name="PSX-PureSpeed/android_device_lge_mako" groups="device,mako" remote="github" revision="psx_v3" />
   <project path="device/lge/mako-kernel" name="PSX-PureSpeed/mako_kernel" groups="device,mako" remote="github" revision="psx_v3" />
   <project path="kernel/lge/mako" name="PSX-PureSpeed/android_kernel_lge_mako" remote="github" revision="psx_v3" />
