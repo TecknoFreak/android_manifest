@@ -49,10 +49,8 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead" name="PSX-PureSpeed/android_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="psx_v3" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <project path="kernel/lge/hammerhead" name="PSX-PureSpeed/android_kernel_lge_hammerhead" remote="github" revision="psx_v3" />
   <project path="device/lge/mako" name="PSX-PureSpeed/android_device_lge_mako" groups="device,mako" remote="github" revision="psx_v3" />
   <project path="device/lge/mako-kernel" name="PSX-PureSpeed/mako_kernel" groups="device,mako" remote="github" revision="psx_v3" />
-  <project path="kernel/lge/mako" name="PSX-PureSpeed/android_kernel_lge_mako" remote="github" revision="psx_v3" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="PSX-PureSpeed/android_device_samsung_manta" groups="device,manta" remote="github" revision="psx_v3" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -301,6 +299,9 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="kernel/asus/flo" name="PSX-PureSpeed/android_kernel_asus_flo" remote="github" revision="psx_v3" />
+  <project path="kernel/lge/hammerhead" name="PSX-PureSpeed/android_kernel_lge_hammerhead" remote="github" revision="psx_v3" />
+  <project path="kernel/lge/mako" name="PSX-PureSpeed/android_kernel_lge_mako" remote="github" revision="psx_v3" />
   <project path="libcore" name="PSX-PureSpeed/android_libcore" remote="github" revision="psx_v3" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="PSX-PureSpeed/android_ndk" remote="github" revision="psx_v3" />
