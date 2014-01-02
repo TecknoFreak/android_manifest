@@ -1,3 +1,3 @@
-repo init -u https://github.com/PSX-PureSpeed/android_manifest.git -b psx_v3
+to get the light version of psx do a
 
-Lost my god damn mind this time
+repo init -u https://github.com/PSX-PureSpeed/android_manifest.git -b psx_light
