@@ -301,7 +301,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="kernel/asus/flo" name="PSX-PureSpeed/android_kernel_asus_flo" remote="github" revision="psx_v3" />
   <project path="kernel/lge/hammerhead" name="PSX-PureSpeed/android_kernel_lge_hammerhead" remote="github" revision="psx_v3" />
-  <project path="kernel/lge/mako" name="PSX-PureSpeed/android_kernel_lge_mako" remote="github" revision="psx_v3" />
+  <project path="kernel/lge/mako" name="PSX-PureSpeed/android_kernel_lge_mako" remote="github" revision="psx_light" />
   <project path="libcore" name="PSX-PureSpeed/android_libcore" remote="github" revision="psx_v3" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="PSX-PureSpeed/android_ndk" remote="github" revision="psx_v3" />
