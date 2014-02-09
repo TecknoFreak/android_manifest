@@ -444,17 +444,17 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/audience" name="PSX-PureSpeed/android_vendor_audience" remote="github" revision="kk-4.4" />
-  <project path="vendor/asus" name="PSX-PureSpeed/android_vendor_asus" remote="github" revision="psx_v3" />
-  <project path="vendor/broadcom" name="PSX-PureSpeed/android_vendor_broadcom" remote="github" revision="psx_v3" />
-  <project path="vendor/elan" name="PSX-PureSpeed/android_vendor_elan" remote="github" revision="kk-4.4" />
-  <project path="vendor/invensense" name="PSX-PureSpeed/android_vendor_invensense" remote="github" revision="psx_v3" />
-  <project path="vendor/lge" name="PSX-PureSpeed/android_vendor_lge" remote="github" revision="psx_v3" />
-  <project path="vendor/nvidia" name="PSX-PureSpeed/android_vendror_nvidia" remote="github" revision="kk-4.4" />
-  <project path="vendor/nxp" name="PSX-PureSpeed/android_vendor_nxp" remote="github" revision="kk-4.4" />
+  <project path="vendor/audience" name="PSX-PureSpeed/android_vendor_audience" remote="github" revision="kitkat" />
+  <project path="vendor/asus" name="PSX-PureSpeed/android_vendor_asus" remote="github" revision="kitkat" />
+  <project path="vendor/broadcom" name="PSX-PureSpeed/android_vendor_broadcom" remote="github" revision="kitkat" />
+  <project path="vendor/elan" name="PSX-PureSpeed/android_vendor_elan" remote="github" revision="kitkat" />
+  <project path="vendor/invensense" name="PSX-PureSpeed/android_vendor_invensense" remote="github" revision="kitkat" />
+  <project path="vendor/lge" name="PSX-PureSpeed/android_vendor_lge" remote="github" revision="kitkat" />
+  <project path="vendor/nvidia" name="PSX-PureSpeed/android_vendror_nvidia" remote="github" revision="kitkat" />
+  <project path="vendor/nxp" name="PSX-PureSpeed/android_vendor_nxp" remote="github" revision="kitkat" />
   <project path="vendor/psx" name="PSX-PureSpeed/android_vendor_psx" remote="github" revision="psx_v3" />
-  <project path="vendor/qcom" name="PSX-PureSpeed/android_vendor_qcom" remote="github" revision="psx_v3" />
-  <project path="vendor/samsung" name="PSX-PureSpeed/android_vendor_samsung" remote="github" revision="psx_v3" />
-  <project path="vendor/widevine" name="PSX-PureSpeed/android_vendor_widevine" remote="github" revision="psx_v3" />  
+  <project path="vendor/qcom" name="PSX-PureSpeed/android_vendor_qcom" remote="github" revision="kitkat" />
+  <project path="vendor/samsung" name="PSX-PureSpeed/android_vendor_samsung" remote="github" revision="kitkat" />
+  <project path="vendor/widevine" name="PSX-PureSpeed/android_vendor_widevine" remote="github" revision="kitkat" />  
   
 </manifest>
