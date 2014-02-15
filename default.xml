@@ -11,9 +11,9 @@
   <remote name="SourceForge"
            fetch="git://git.code.sf.net/p/" />
            
-  <default revision="refs/tags/android-4.4.2_r1"
+  <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8" />
 
   <project path="build" name="PSX-PureSpeed/android_build" groups="pdk" remote="github" revision="psx_light" >
     <copyfile src="core/root.mk" dest="Makefile" />
