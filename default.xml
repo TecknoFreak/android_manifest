@@ -19,7 +19,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="PSX-PureSpeed/android_art" remote="github" revision="psx_v3" />
+  <project path="art" name="PSX-PureSpeed/android_art" remote="github" revision="kitkat" />
   <project path="bionic" name="PSX-PureSpeed/android_bionic" remote="github" revision="kitkat" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -52,7 +52,7 @@
   <project path="device/lge/mako" name="PSX-PureSpeed/android_device_lge_mako" groups="device,mako" remote="github" revision="kitkat" />
   <project path="device/lge/mako-kernel" name="PSX-PureSpeed/mako_kernel" groups="device,mako" remote="github" revision="psx_v3" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="PSX-PureSpeed/android_device_samsung_manta" groups="device,manta" remote="github" revision="psx_v3" />
+  <project path="device/samsung/manta" name="PSX-PureSpeed/android_device_samsung_manta" groups="device,manta" remote="github" revision="kitkat" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -217,7 +217,7 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="PSX-PureSpeed/android_external_skia" remote="github" revision="psx_v3" />
+  <project path="external/skia" name="PSX-PureSpeed/android_external_skia" remote="github" revision="kitkat" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -248,7 +248,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="PSX-PureSpeed/android_frameworks_base" remote="github" revision="psx_v3" />
+  <project path="frameworks/base" name="PSX-PureSpeed/android_frameworks_base" remote="github" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -267,7 +267,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="PSX-PureSpeed/android_frameworks_opt_telephony" remote="github" revision="psx_v3" />
+  <project path="frameworks/opt/telephony" name="PSX-PureSpeed/android_frameworks_opt_telephony" remote="github" revision="kitkat" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" /> 
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -299,12 +299,12 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="kernel/asus/flo" name="PSX-PureSpeed/android_kernel_asus_flo" remote="github" revision="psx_v3" />
+  <project path="kernel/asus/flo" name="PSX-PureSpeed/android_kernel_asus_flo" remote="github" revision="kitkat" />
   <project path="kernel/lge/hammerhead" name="PSX-PureSpeed/android_kernel_lge_hammerhead" remote="github" revision="kitkat" />
   <project path="kernel/lge/mako" name="PSX-PureSpeed/android_kernel_lge_mako" remote="github" revision="kitkat" />
-  <project path="libcore" name="PSX-PureSpeed/android_libcore" remote="github" revision="psx_v3" />
+  <project path="libcore" name="PSX-PureSpeed/android_libcore" remote="github" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
-  <project path="ndk" name="PSX-PureSpeed/android_ndk" remote="github" revision="psx_v3" />
+  <project path="ndk" name="PSX-PureSpeed/android_ndk" remote="github" revision="kitkat" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -427,7 +427,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="PSX-PureSpeed/android_system_core" groups="pdk" remote="github" revision="psx_v3" />
+  <project path="system/core" name="PSX-PureSpeed/android_system_core" groups="pdk" remote="github" revision="kitkat" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
