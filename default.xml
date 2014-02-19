@@ -299,7 +299,6 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="kernel/asus/flo" name="PSX-PureSpeed/android_kernel_asus_flo" remote="github" revision="kitkat" />
   <project path="kernel/lge/hammerhead" name="PSX-PureSpeed/android_kernel_lge_hammerhead" remote="github" revision="kitkat" />
   <project path="kernel/lge/mako" name="PSX-PureSpeed/android_kernel_lge_mako" remote="github" revision="kitkat" />
   <project path="libcore" name="PSX-PureSpeed/android_libcore" remote="github" revision="kitkat" />
