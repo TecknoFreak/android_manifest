@@ -15,7 +15,7 @@
            remote="aosp"
            sync-j="8" />
 
-  <project path="build" name="PSX-PureSpeed/android_build" groups="pdk" remote="github" revision="psx_light" >
+  <project path="build" name="PSX-PureSpeed/android_build" groups="pdk" remote="github" revision="fat_lady" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -217,7 +217,7 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="PSX-PureSpeed/android_external_skia" remote="github" revision="psx_light" />
+  <project path="external/skia" name="PSX-PureSpeed/android_external_skia" remote="github" revision="kitkat" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -248,7 +248,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="PSX-PureSpeed/android_frameworks_base" remote="github" revision="psx_light" />
+  <project path="frameworks/base" name="PSX-PureSpeed/android_frameworks_base" remote="github" revision="fat_lady" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -316,7 +316,7 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="PSX-PureSpeed/android_packages_apps_Dialer"  remote="github" revision="psx_light"/>
+  <project path="packages/apps/Dialer" name="PSX-PureSpeed/android_packages_apps_Dialer"  remote="github" revision="fat_lady"/>
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
@@ -337,9 +337,9 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/psxXtras" name="PSX-PureSpeed/android_packages_apps_psxXtras" remote="github" revision="psx_light" />
+  <project path="packages/apps/psxXtras" name="PSX-PureSpeed/android_packages_apps_psxXtras" remote="github" revision="fat_lady" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="PSX-PureSpeed/android_packages_apps_Settings" remote="github" revision="psx_light" />
+  <project path="packages/apps/Settings" name="PSX-PureSpeed/android_packages_apps_Settings" remote="github" revision="fat_lady" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -365,7 +365,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="PSX-PureSpeed/android_packages_services_Telephony" remote="github" revision="psx_light" />
+  <project path="packages/services/Telephony" name="PSX-PureSpeed/android_packages_services_Telephony" remote="github" revision="fat_lady" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -452,7 +452,7 @@
   <project path="vendor/lge" name="PSX-PureSpeed/android_vendor_lge" remote="github" revision="kitkat" />
   <project path="vendor/nvidia" name="PSX-PureSpeed/android_vendror_nvidia" remote="github" revision="kitkat" />
   <project path="vendor/nxp" name="PSX-PureSpeed/android_vendor_nxp" remote="github" revision="kitkat" />
-  <project path="vendor/psx" name="PSX-PureSpeed/android_vendor_psx" remote="github" revision="psx_light" />
+  <project path="vendor/psx" name="PSX-PureSpeed/android_vendor_psx" remote="github" revision="fat_lady" />
   <project path="vendor/qcom" name="PSX-PureSpeed/android_vendor_qcom" remote="github" revision="kitkat" />
   <project path="vendor/samsung" name="PSX-PureSpeed/android_vendor_samsung" remote="github" revision="kitkat" />
   <project path="vendor/widevine" name="PSX-PureSpeed/android_vendor_widevine" remote="github" revision="kitkat" />  
